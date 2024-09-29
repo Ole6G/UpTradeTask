@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "uptradertask"
+version = "0.1.0"
+description = ""
+authors = ["Oleg <145393954+Ole6G@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.30.6"
+alembic = "^1.13.3"
+sqlalchemy = "^2.0.35"
+httpx = "^0.27.2"
+databases = "^0.9.0"
+aiosqlite = "^0.20.0"
+pydantic = {extras = ["email"], version = "^2.9.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
